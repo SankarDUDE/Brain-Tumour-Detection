@@ -39,19 +39,47 @@ mention the approach and how you have solved the problem with the technology , u
 - use bullets to explain
 - be consise and specific
 - explain with images and flowcharts
-- 
+- Medical Imaging: Various imaging techniques are used to capture detailed images of the brain, including:
+- Magnetic Resonance Imaging (MRI): MRI uses powerful magnets and radio waves to produce detailed images of the brain's structures, allowing for the detection of abnormalities such as tumors.
+- Computed Tomography (CT)
+- Preprocessing
+- Feature Extraction
+- Classification
+- Validation and Testing
+- Integration into Clinical Workflow
+- Clinical Evaluation
 ![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
 
 ## Techstacks used 
-`ml` , `CNN` 
+`CNN`, `ml`  
 
 ## How to run locally 
-explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
-```
-npm install
-npm start
-```
+ 
+- Step 1 : using pip install the required packages
+           Running a brain tumor detection system locally using Convolutional Neural Networks (CNNs) involves several steps.
+- Step 2 : Data Collection and Preprocessing:
+	Obtain a dataset of brain MRI images with corresponding labels indicating the presence or absence of tumors.
+	Preprocess the images, which may involve resizing, normalization, and augmentation to improve model performance.
+- Step 3 : Model Architecture Selection:
+	Choose a suitable CNN architecture for the task. Common choices include architectures like VGG, ResNet, or custom architectures designed specifically for medical image analysis.
+- Step 4 : Model Training:
+	 Split the dataset into training, validation, and testing sets.
+	Train the CNN model using the training set. During training, the model learns to differentiate between images with and without tumors by adjusting its parameters to minimize a defined loss function.
+  	 Validate the model's performance using the validation set to tune hyperparameters and prevent overfitting.
+	Evaluate the model's performance using the testing set to obtain final metrics like accuracy, precision, recall, and F1 score.
+- Step 5 : Model Deployment:
+	Once the model is trained and evaluated satisfactorily, it can be deployed locally for inference.
+	You can integrate the trained model into an application or script that accepts MRI images as input and outputs predictions about the presence or absence of tumors.
+	Use the deployed model to perform inference on new brain MRI images.
+	Preprocess the input images similarly to the preprocessing done during training.
+	Feed the preprocessed images into the trained model to obtain predictions.
+	Post-process the model outputs as necessary (e.g., thresholding probabilities to make binary predictions).
+- Step 6 : Evaluation and Iteration:
+	Continuously monitor the model's performance on new data and iterate on the model architecture or training process if necessary to improve performance.
+- Step 7 : Security and Privacy Considerations:
+	Ensure that sensitive medical data is handled securely and in compliance with relevant regulations (e.g., HIPAA).
+	Implement appropriate measures to protect the model and data from unauthorized access or misuse.
+
 
 # What's next ?
 The future of brain tumor detection is bright and focusing on improvements in several key areas:
