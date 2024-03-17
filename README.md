@@ -5,7 +5,7 @@
      
 </h1>
 
-# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com)  
+#   [`Demo video link `]([http://www.google.com](https://drive.google.com/file/d/1SdUxfdv9FH0OkDLlShCbkCK8hfnYspAd/view?usp=sharing))  
 Brain tumor detection is the process of identifying the presence and location of a tumor in the brain. Early detection of brain tumors is crucial for improving patient outcomes, as treatment is most effective when the tumor is small and has not spread.
 ## Team Details
 `Team number` : VH175
