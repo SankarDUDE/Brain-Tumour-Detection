@@ -1,6 +1,6 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a> ⭐️Brain Tumour Detection using CNN⭐️ </a><br>
+        <a> 🧠Brain Tumour Detection using CNN🧠 </a><br>
     </b>
      
 </h1>
@@ -35,10 +35,6 @@ To Develop the various custom CNN models for Brain Tumour Detection and to ident
  
 
 ## Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
 - Medical Imaging: Various imaging techniques are used to capture detailed images of the brain, including:
 - Magnetic Resonance Imaging (MRI): MRI uses powerful magnets and radio waves to produce detailed images of the brain's structures, allowing for the detection of abnormalities such as tumors.
 - Computed Tomography (CT)
@@ -48,7 +44,6 @@ mention the approach and how you have solved the problem with the technology , u
 - Validation and Testing
 - Integration into Clinical Workflow
 - Clinical Evaluation
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
 
 ## Techstacks used 
 `CNN`, `ml`  
